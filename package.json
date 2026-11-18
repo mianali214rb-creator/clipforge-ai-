@@ -1,0 +1,9 @@
+{
+  "name": "clipforge-ai",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {"dev":"vite --host 0.0.0.0", "build":"vite build", "preview":"vite preview --host 0.0.0.0"},
+  "dependencies": {"@ffmpeg/ffmpeg":"^0.12.10", "@ffmpeg/util":"^0.12.1", "@ffmpeg/core":"^0.12.6", "react":"^18.3.1", "react-dom":"^18.3.1"},
+  "devDependencies": {"@vitejs/plugin-react":"^4.3.4", "vite":"^6.0.5"}
+}
